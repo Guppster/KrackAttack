@@ -1,6 +1,7 @@
 ---
 output: 
   pdf_document:
+    citation_package: natbib
     toc: true
     number_sections: false
     keep_tex: true
@@ -21,13 +22,15 @@ classname: CS4457
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 geometry: margin=1in
 fontsize: 11pt
+blio-style: apsr
 indent: yes
+bibliography: bibliography.bib
 colorlinks: true
 ---
 
 # Attack Description
 
-Since it’s introduction in 2006, WPA2 has become the most popular protected access technology used in the consumer industry. Almost every household WiFi network is currently making use of WPA2 to authenticate its devices.
+Since it’s introduction in 2006, WPA2 has become the most popular protected access technology used in the consumer industry. Almost every household WiFi network is currently making use of WPA2 to authenticate its devices. @KrackAttacks
 
 On October 16th, 2017 a flaw was found in the WPA2 protocol, making every device using it to connect to a Wi-Fi network vulnerable and helpless to hackers. No matter the encryption method, from WPA2 to AES, hackers are able to decrypt any data sent by the victim. In fact, because this is a man in the middle attack, the device can be tricked into using an all-zero encryption key. If no other form of encryption is utilized (HTTPS), the attacker will have access to unencrypted and human-readable data, even when it comes to sensitive information like usernames, passwords, and credit-card information. If that isn’t bad enough, it is even possible to inject ransomware or malware into websites. Meaning, this is not only bad for the users but also the web providers. The worst part is that there is no way to stop this, other than hardwiring the device, or hoping the manufacturer of the device offers an update that patches this attack.
 

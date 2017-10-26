@@ -32,6 +32,8 @@
             urlcolor=blue,
             breaklinks=true}
 \urlstyle{same}  % don't use monospace font for urls
+\usepackage{natbib}
+\bibliographystyle{plainnat}
 \setlength{\emergencystretch}{3em}  % prevent overfull lines
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
@@ -119,7 +121,7 @@
 Since it's introduction in 2006, WPA2 has become the most popular
 protected access technology used in the consumer industry. Almost every
 household WiFi network is currently making use of WPA2 to authenticate
-its devices.
+its devices. \citet{KrackAttacks}
 
 On October 16th, 2017 a flaw was found in the WPA2 protocol, making
 every device using it to connect to a Wi-Fi network vulnerable and
@@ -208,6 +210,8 @@ velit. Fusce ornare malesuada dolor, ut finibus arcu ornare ut. Nam
 tincidunt sem in tempor pellentesque. Integer efficitur, nisl vel
 euismod ultricies, nisl orci volutpat orci, nec ultrices nisi tortor id
 eros.
+
+\bibliography{bibliography.bib}
 
 \end{document}
 
