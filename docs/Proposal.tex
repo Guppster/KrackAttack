@@ -1,121 +1,62 @@
-\documentclass[11pt,]{article}
-\usepackage{lmodern}
-\usepackage{amssymb,amsmath}
-\usepackage{ifxetex,ifluatex}
-\usepackage{fixltx2e} % provides \textsubscript
-\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
-  \usepackage[T1]{fontenc}
-  \usepackage[utf8]{inputenc}
-\else % if luatex or xelatex
-  \ifxetex
-    \usepackage{mathspec}
-  \else
-    \usepackage{fontspec}
-  \fi
-  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
-\fi
-% use upquote if available, for straight quotes in verbatim environments
-\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
-% use microtype if available
-\IfFileExists{microtype.sty}{%
-\usepackage{microtype}
-\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
-}{}
-\usepackage[margin=1in]{geometry}
-\usepackage[unicode=true]{hyperref}
-\PassOptionsToPackage{usenames,dvipsnames}{color} % color is loaded by hyperref
-\hypersetup{
-            pdftitle={Project Proposal},
-            colorlinks=true,
-            linkcolor=Maroon,
-            citecolor=blue,
-            urlcolor=blue,
-            breaklinks=true}
-\urlstyle{same}  % don't use monospace font for urls
+% Document class
+\documentclass{article}
+
+% For figures
+\usepackage{graphicx} % more modern
+\usepackage{subfigure} 
+% For citations
 \usepackage{natbib}
-\bibliographystyle{plainnat}
-\setlength{\emergencystretch}{3em}  % prevent overfull lines
-\providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
-\setcounter{secnumdepth}{0}
-% Redefines (sub)paragraphs to behave more like sections
-\ifx\paragraph\undefined\else
-\let\oldparagraph\paragraph
-\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
-\fi
-\ifx\subparagraph\undefined\else
-\let\oldsubparagraph\subparagraph
-\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
-\fi
 
-% set default figure placement to htbp
-\makeatletter
-\def\fps@figure{htbp}
-\makeatother
+% For algorithms
+\usepackage{algorithm}
+%\usepackage{algorithmic}
+
+% As of 2011, we use the hyperref package to produce hyperlinks in the
+% resulting PDF.  If this breaks your system, please commend out the
+% following usepackage line and replace \usepackage{cs4437cs9637} with
+% \usepackage[nohyperref]{cs4437cs9637} above.
+\usepackage{hyperref}
 
 
+% Packages hyperref and algorithmic misbehave sometimes.  We can fix
+% this with the following command.
+\newcommand{\theHalgorithm}{\arabic{algorithm}}
 
-% Stuff I added.
-% --------------
+% Employ the following version of the ``usepackage'' statement for
+% submitting the draft version of the paper for review.  This will set
+% the note in the first column to ``Under review.  Do not distribute.''
+\usepackage{cs4437cs9637} 
 
-\usepackage{indentfirst}
-\usepackage[doublespacing]{setspace}
-\usepackage{fancyhdr}
-\pagestyle{fancy}
-\usepackage{layout}   
-\lhead{\sc Project Proposal}
-\chead{}
-\rhead{\thepage}
-\lfoot{}
-\cfoot{}
-\rfoot{}
-
-\renewcommand{\headrulewidth}{0.0pt}
-\renewcommand{\footrulewidth}{0.0pt}
-
-\usepackage{sectsty}
-\sectionfont{\centering}
-\subsectionfont{\centering}
-
-\newtheorem{hypothesis}{Hypothesis}
-
-% Begin document
-% --------------
 
 \begin{document}
 
-\doublespacing
+% The \cstitle you define below is probably too long as a header.
+% Therefore, a short form for the running title is supplied here:
+\cstitlerunning{Project Proposal}
 
-\begin{titlepage}
-    \begin{center}
-    \line(1,0){300} \\ 
-    [0.25in]
-    \huge{\bfseries Project Proposal} \\
-    [2mm]
-    \line(1,0){200} \\
-    [1.5cm] 
-    \textsc{\Large Key Reinstallation Attacks on Wi-Fi Networks} \\
-    [0.75cm]
-    \textsc{\Large we're all gonna die} \\
-    [10cm]
-    \end{center}
-    
-    \begin{flushright}
-    \textsc{\Large{Gurpreet Singh, Konrad Pfundner, Logan Kember, Fernando Campos \\} \normalsize\emph{\# 250674134, 111111111, 111111111, 111111111 \\} \normalsize\emph{Software Developers \\} }
-    
-    \end{flushright}
-    
-\end{titlepage}
+\twocolumn[
+\cstitle{Proposal: Key Reinstallation Attacks on Wi-Fi Networks}
+
+% It is OKAY to include author information
+
+\csauthor{Gurpreet Singh, Konrad Pfundner, Logan Kember, Fernando Campos}{}
+\csaddress{The University Of Western Ontario}
+
+% You may provide any keywords that you 
+% find helpful for describing your paper; these are used to populate 
+% the "keywords" metadata in the PDF but will not be shown in the document
+\cskeywords{}
+
+\vskip 0.3in
+]
+
+\begin{abstract} 
+{\bf Bringing awareness to new attacks that expose the majority of WiFi
+networks.} This proposal discusses the importance of recent attacks executed on the
+WPA2 protocol and proposes the creation of a mobile application that can
+showcase and exploit wireless APs. \end{abstract} 
 
 
-\newpage
-
-{
-\hypersetup{linkcolor=black}
-\setcounter{tocdepth}{2}
-\tableofcontents
-\newpage
-}
 \section{Attack Description}\label{attack-description}
 
 Since it's introduction in 2006, WPA2 has become the most popular
@@ -195,8 +136,7 @@ and collecting data.
 
 \subsection{Technology Breakdown}\label{technology-breakdown}
 
-\renewcommand\refname{Mockups}
-\bibliography{bibliography.bib}
+\bibliography{Proposal: Key Reinstallation Attacks on Wi-Fi Networks}
+\bibliographystyle{plainnat}
 
-\end{document}
-
+\end{document} 
