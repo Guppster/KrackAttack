@@ -34,6 +34,15 @@
 \urlstyle{same}  % don't use monospace font for urls
 \usepackage{natbib}
 \bibliographystyle{plainnat}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
 \setlength{\emergencystretch}{3em}  % prevent overfull lines
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
@@ -96,17 +105,16 @@
     [1.5cm] 
     \textsc{\Large Key Reinstallation Attacks on Wi-Fi Networks} \\
     [0.75cm]
-    \textsc{\Large we're all gonna die} \\
+    \textsc{\Large Mobile Application to raise awareness} \\
     [10cm]
     \end{center}
     
     \begin{flushright}
-    \textsc{\Large{Gurpreet Singh, Konrad Pfundner, Logan Kember, Fernando Campos \\} \normalsize\emph{\# 250674134, 111111111, 111111111, 111111111 \\} \normalsize\emph{Software Developers \\} }
+    \textsc{\Large{Gurpreet S, Konrad P, Logan K, Fernando C \\} \normalsize\emph{Software Developers \\} }
     
     \end{flushright}
     
 \end{titlepage}
-
 
 \newpage
 
@@ -116,6 +124,18 @@
 \tableofcontents
 \newpage
 }
+
+
+\begin{center}\textbf{Abstract}\end{center}
+
+\noindent Bringing awareness to new attacks that expose the majority of WiFi
+networks. This proposal discusses the importance of recent attacks
+executed on the WPA2 protocol and proposes the creation of a mobile
+application that can showcase and exploit wireless APs.
+
+
+
+
 \section{Attack Description}\label{attack-description}
 
 Since it's introduction in 2006, WPA2 has become the most popular
@@ -193,9 +213,39 @@ from. Once the user selects an access point from the list, they will be
 shown details about the device and buttons for initializing the attack
 and collecting data.
 
-\subsection{Technology Breakdown}\label{technology-breakdown}
+\subsection{Competition}\label{competition}
 
-\renewcommand\refname{Mockups}
+Since this is such a new exploit there are no other competitors
+attempting to do the same thing. Only resources available are the
+official technical demonstrations and paper created by the researchers
+that discovered this attack. We hope to be the first ones to provide an
+application like around this research.
+
+\subsection{Project Milestones}\label{project-milestones}
+
+The development structure for this application will start with a series
+of proof of concepts (POC) following the technical description of the
+attack. Then the working POCs will be integrated into a mobile
+application
+
+\begin{figure}
+\centering
+\includegraphics{images/gantt.png}
+\caption{Gantt}
+\end{figure}
+
+\newpage
+
+\section{App Mockups}\label{app-mockups}
+
+\begin{figure}
+\centering
+\includegraphics{images/mockup.png}
+\caption{Mockups}
+\end{figure}
+
+\newpage
+
 \bibliography{bibliography.bib}
 
 \end{document}

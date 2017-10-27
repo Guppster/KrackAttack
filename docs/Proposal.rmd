@@ -10,12 +10,11 @@ output:
     template: ./templates/gsingh-basic.tex
 title: "Project Proposal"
 subtitle: "Key Reinstallation Attacks on Wi-Fi Networks"
-subsubtitle: "we're all gonna die"
+subsubtitle: "Mobile Application to raise awareness"
 
 runhead: "Project Proposal"
 author:
-- name: Gurpreet Singh, Konrad Pfundner, Logan Kember, Fernando Campos
-  studentnumber: 250674134, 111111111, 111111111, 111111111
+- name: Gurpreet S, Konrad P, Logan K, Fernando C
   affiliation: Software Developers
 teacher: myboyanheq
 classname: CS4457
@@ -26,6 +25,7 @@ blio-style: apsr
 indent: yes
 bibliography: bibliography.bib
 colorlinks: true
+abstract: Bringing awareness to new attacks that expose the majority of WiFi networks. This proposal discusses the importance of recent attacks executed on the WPA2 protocol and proposes the creation of a mobile application that can showcase and exploit wireless APs.
 ---
 
 # Attack Description
@@ -48,8 +48,20 @@ With this project we are trying to educate average Wi-Fi users and show them the
 
 Our proposed solution is to create a mobile application on both iOS and Android showcasing the attack’s capabilities. Not only will the bring awareness to the issue, but will let users actually test to see if any of their personal devices are prone to this attack. Furthermore, it will actually allow the user to perform the task and see the decrypted data to allow them to truly understand the dangers. The application will have 3 screens. The first one describing the functionality as well a warning informing the user to only use the app on APs they own. The second screen will allow searching nearby APs and provide a list to choose from. Once the user selects an access point from the list, they will be shown details about the device and buttons for initializing the attack and collecting data.
 
-## Technology Breakdown
+## Competition
 
+Since this is such a new exploit there are no other competitors attempting to do the same thing. Only resources available are the official technical demonstrations and paper created by the researchers that discovered this attack. We hope to be the first ones to provide an application like around this research. 
 
-# Mockups
+## Project Milestones
 
+The development structure for this application will start with a series of proof of concepts (POC) following the technical description of the attack. Then the working POCs will be integrated into a mobile application
+
+![Gantt](images/gantt.png)
+
+\newpage
+
+# App Mockups
+
+![Mockups](images/mockup.png)
+
+\newpage

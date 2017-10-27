@@ -249,21 +249,11 @@ $endfor$
     \end{center}
     
     \begin{flushright}
-    \textsc{$for(author)$\Large{$author.name$ \\} \normalsize\emph{\# $author.studentnumber$ \\} \normalsize\emph{$author.affiliation$ \\} $sep$ \and $endfor$}
+    \textsc{$for(author)$\Large{$author.name$ \\} \normalsize\emph{$author.affiliation$ \\} $sep$ \and $endfor$}
     
     \end{flushright}
     
 \end{titlepage}
-
-$if(abstract)$
-
-\begin{center}Abstract\end{center}
-
-\noindent $abstract$
-
-$if(keywords)$\emph{Keywords:} $keywords$$endif$
-
-$endif$
 
 \newpage
 
@@ -280,6 +270,17 @@ $endif$
 \tableofcontents
 \newpage
 }
+
+$if(abstract)$
+
+\begin{center}\textbf{Abstract}\end{center}
+
+\noindent $abstract$
+
+$if(keywords)$\emph{Keywords:} $keywords$$endif$
+
+$endif$
+
 $endif$
 $if(lot)$
 \listoftables
