@@ -7,14 +7,16 @@ output:
     keep_tex: true
     fig_caption: true
     latex_engine: pdflatex
-    template: ./templates/cs4414.tex
-title: "Proposal: Key Reinstallation Attacks on Wi-Fi Networks"
-subtitle: "" 
-subsubtitle: ""
+    template: ./templates/gsingh-basic.tex
+title: "Project Proposal"
+subtitle: "Key Reinstallation Attacks on Wi-Fi Networks"
+subsubtitle: "we're all gonna die"
 
 runhead: "Project Proposal"
-authorname: Gurpreet Singh, Konrad Pfundner, Logan Kember, Fernando Campos
-institute: The University Of Western Ontario
+author:
+- name: Gurpreet Singh, Konrad Pfundner, Logan Kember, Fernando Campos
+  studentnumber: 250674134, 111111111, 111111111, 111111111
+  affiliation: Software Developers
 teacher: myboyanheq
 classname: CS4457
 date: "`r format(Sys.time(), '%B %d, %Y')`"
@@ -24,9 +26,6 @@ blio-style: apsr
 indent: yes
 bibliography: bibliography.bib
 colorlinks: true
-boldabstract: Bringing awareness to new attacks that expose the majority of WiFi networks.
-abstract: This proposal discusses the importance of recent attacks executed on the WPA2 protocol and proposes the creation of a mobile application that can showcase and exploit wireless APs. 
-footer: hi my name bob
 ---
 
 # Attack Description
