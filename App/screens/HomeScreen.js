@@ -33,7 +33,7 @@ export default class HomeScreen extends React.Component {
           <Button
             onPress={this.onPressAbout}
             title="About"
-            color="#841584"
+            color="#a67ae2"
             accessibilityLabel="Learn more about the application"
           />
         </View>
@@ -42,7 +42,7 @@ export default class HomeScreen extends React.Component {
           <Button
             onPress={this.onPressDonate}
             title="Donate ;)"
-            color="#841584"
+            color="#a67ae2"
             accessibilityLabel="Help out with the Development of this application"
           />
         </View>
@@ -91,5 +91,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     fontWeight: 'bold',
   },
-  button: {},
+  button: {
+    margin: 2
+  },
 });

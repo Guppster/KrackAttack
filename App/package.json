@@ -12,6 +12,8 @@
     "expo": "^22.0.0",
     "react": "16.0.0-beta.5",
     "react-native": "https://github.com/expo/react-native/archive/sdk-22.0.2.tar.gz",
+    "react-native-searchbar": "^1.13.0",
+    "react-native-vector-icons": "^4.4.2",
     "react-navigation": "^1.0.0-beta.17"
   },
   "devDependencies": {
