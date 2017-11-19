@@ -1,3 +1,4 @@
 App/node_modules/**/*
 App/.expo/**/*
 App/.vscode/*
+App/.idea/
