@@ -1,7 +1,7 @@
 import React from 'react';
 import { Platform } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import { TabNavigator, TabBarBottom } from 'react-navigation';
+import { StackNavigator, TabNavigator, TabBarBottom } from 'react-navigation';
 
 import Colors from '../constants/Colors';
 
@@ -9,16 +9,22 @@ import HomeScreen from '../screens/HomeScreen';
 import SearchScreen from '../screens/SearchScreen';
 import ExploitScreen from '../screens/ExploitScreen';
 
-export default TabNavigator(
+const SearchExploitNavigation = StackNavigator({
+  Search: {
+    screen: SearchScreen,
+  },
+  Exploit: {
+    screen: ExploitScreen,
+  }
+});
+
+const mainTabsNavigation =  TabNavigator(
   {
     Home: {
       screen: HomeScreen,
     },
     Search: {
-      screen: SearchScreen,
-    },
-    Exploit: {
-      screen: ExploitScreen,
+      screen: SearchExploitNavigation,
     },
   },
   {
@@ -47,6 +53,8 @@ export default TabNavigator(
           />
         );
       },
+      headerMode: 'none',
+      header: null
     }),
     tabBarComponent: TabBarBottom,
     tabBarPosition: 'bottom',
@@ -54,3 +62,5 @@ export default TabNavigator(
     swipeEnabled: true,
   }
 );
+
+export default mainTabsNavigation

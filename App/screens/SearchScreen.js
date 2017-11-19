@@ -44,16 +44,17 @@ export default class SearchScreen extends React.Component {
   }
 
   render() {
+    const { navigate } = this.props.navigation;
+
     return (
       <View style={styles.screen}>
         <ScrollView style={[styles.avoidSearchBar, styles.resultsContainer]}>
           {
             this.state.results.map((result, i) => {
               return (
-                <TouchableOpacity key={i} style={styles.entry} onPress={this._onPressButton}>
+                <TouchableOpacity key={i} style={styles.entry} onPress={() => navigate('Exploit', { ssid: result})}>
                     <Text style={styles.entryText}>
                       {result.toString()}
-                      {console.log(result.toString())}
                     </Text>
                 </TouchableOpacity>
               );
