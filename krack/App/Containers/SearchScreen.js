@@ -1,37 +1,36 @@
-import React, { Component } from "react";
-import {Platform, Alert, ScrollView, View, Text, Button, TouchableOpacity, StyleSheet} from 'react-native';
-import { connect } from "react-redux";
+import React, { Component } from 'react'
+import {Platform, Alert, ScrollView, View, Text, Button, TouchableOpacity, StyleSheet} from 'react-native'
+import { connect } from 'react-redux'
 import SearchBar from 'react-native-searchbar'
 
 // Styles
-import styles from "./Styles/SearchScreenStyle";
+import styles from './Styles/SearchScreenStyle'
 
-var wifi = require('react-native-android-wifi');
+const wifi = require('react-native-android-wifi')
 
 const items = [
-  "ya",
-  "dun",
-  "even",
-  "know",
-  "fam",
-  "mans",
-  "international",
-  "ya",
-  "dun",
-  "even",
-  "know",
-  "fam",
-  "mans",
-  "international"
-];
+  'Loading',
+  'Loading',
+  'Loading',
+  'Loading',
+  'Loading',
+  'Loading',
+  'Loading',
+  'Loading',
+  'Loading',
+  'Loading',
+  'Loading',
+  'Loading',
+  'Loading'
+]
 
 class SearchScreen extends Component {
   static navigationOptions = {
     header: null
   };
 
-  constructor(props) {
-    super(props);
+  constructor (props) {
+    super(props)
     this.state = {
       items,
       results: [],
@@ -41,45 +40,34 @@ class SearchScreen extends Component {
       pass: null,
       ssidExist: null,
       currentSSID: null,
-      currentBSSID: null, 
+      currentBSSID: null,
       wifiList: null,
       modalVisible: false,
-      status:null,
+      status: null,
       level: null,
-      ip: null,
-    };
-    this._handleResults = this._handleResults.bind(this);
-    this.refreshWifiResults = this.refreshWifiResults.bind(this);
-  }
-
-  _handleResults(results) {
-    this.setState({results});
-  }
-
-  refreshWifiResults() {
-
-    if (Platform.OS == 'android'){
-      // wifi.isEnabled((isEnabled) => {
-      //   if (isEnabled) {
-      //     console.log("wifi service enabled");
-      //   } else {
-      //     console.log("wifi service is disabled");
-      //   }
-      // });
-       wifi.getBSSID((bssid) => {
-         Alert.alert('hello', bssid)
-       })
-      // wifi.setEnabled(true);
-      // console.log("ANDROID!");
-      // wifi.setEnabled(true);
-      
+      ip: null
     }
-
-    this.setState({results: items});
+    this._handleResults = this._handleResults.bind(this)
+    this.refreshWifiResults = this.refreshWifiResults.bind(this)
   }
 
-  render() {
-    const { navigate } = this.props.navigation;
+  _handleResults (results) {
+    this.setState({results})
+  }
+
+  refreshWifiResults () {
+    if (Platform.OS === 'android') {
+      wifi.reScanAndLoadWifiList((wifiStringList) => {
+        var wifiArray = JSON.parse(wifiStringList)
+        this.setState({results: wifiArray})
+      }, (bad) => { Alert.alert('bad', 'very bad') })
+    } else {
+      Alert.alert('Opps!', 'Sorry this functionality is only implemented for Android devices right now')
+    }
+  }
+
+  render () {
+    const { navigate } = this.props.navigation
 
     return (
       <View style={styles.screen}>
@@ -89,16 +77,16 @@ class SearchScreen extends Component {
               <TouchableOpacity
                 key={i}
                 style={styles.entry}
-                onPress={() => navigate("Exploit", { ssid: result })}
+                onPress={() => navigate('Exploit', { ssid: result })}
               >
-                <Text style={styles.entryText}>{result.toString()}</Text>
+                <Text style={styles.entryText}>{result.SSID}</Text>
               </TouchableOpacity>
-            );
+            )
           })}
         </ScrollView>
 
         <View style={styles.controlContainer}>
-          <Button title={"Refresh"} onPress={() => this.refreshWifiResults()} />
+          <Button title={'Refresh'} onPress={() => this.refreshWifiResults()} />
         </View>
 
         <SearchBar
@@ -106,19 +94,19 @@ class SearchScreen extends Component {
           data={items}
           handleResults={this._handleResults}
           showOnLoad
-          hideBack={true}
+          hideBack
         />
       </View>
-    );
+    )
   }
 }
 
 const mapStateToProps = state => {
-  return {};
-};
+  return {}
+}
 
 const mapDispatchToProps = dispatch => {
-  return {};
-};
+  return {}
+}
 
-export default connect(mapStateToProps, mapDispatchToProps)(SearchScreen);
+export default connect(mapStateToProps, mapDispatchToProps)(SearchScreen)
