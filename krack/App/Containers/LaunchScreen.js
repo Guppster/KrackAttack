@@ -37,7 +37,7 @@ class LaunchScreen extends Component {
           <Button
             onPress={this.onPressAbout}
             title='About'
-            color='#a67ae2'
+            color='#3b5998'
             accessibilityLabel='Learn more about the application'
           />
         </View>
@@ -46,7 +46,7 @@ class LaunchScreen extends Component {
           <Button
             onPress={this.onPressDonate}
             title='Donate ;)'
-            color='#a67ae2'
+            color={'#8b9dc3'}
             accessibilityLabel='Help out with the Development of this application'
           />
         </View>

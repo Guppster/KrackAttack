@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {Platform, Alert, ScrollView, View, Text, Button, TouchableOpacity, StyleSheet} from 'react-native'
+import {Platform, Alert, ScrollView, View, Text, Button, TouchableOpacity} from 'react-native'
 import { connect } from 'react-redux'
 import SearchBar from 'react-native-searchbar'
 
@@ -13,7 +13,7 @@ class SearchScreen extends Component {
     header: null
   };
 
-  constructor (props) {
+  constructor(props) {
     super(props)
     this.state = {
       results: [],
@@ -32,7 +32,7 @@ class SearchScreen extends Component {
       wifi.reScanAndLoadWifiList((wifiStringList) => {
         var wifiArray = JSON.parse(wifiStringList)
         this.setState({results: wifiArray})
-      }, (bad) => { Alert.alert('bad', 'very bad') })
+      }, (bad) => { Alert.alert('Opps', 'Something has gone VERY wrong. byebye') })
     } else {
       Alert.alert('Opps!', 'Sorry this functionality is only implemented for Android devices right now')
     }
@@ -58,7 +58,7 @@ class SearchScreen extends Component {
         </ScrollView>
 
         <View style={styles.controlContainer}>
-          <Button title={'Refresh'} onPress={() => this.refreshWifiResults()} />
+          <Button title={'Refresh'}color={'#8b9dc3'} onPress={() => this.refreshWifiResults()} />
         </View>
 
         <SearchBar

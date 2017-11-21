@@ -1,10 +1,9 @@
 import { StyleSheet } from 'react-native'
-import { ApplicationStyles } from '../../Themes/'
 
 export default StyleSheet.create({
   screen: {
     flex: 1,
-    flexDirection: 'column',
+    flexDirection: 'column'
   },
   avoidSearchBar: {
     paddingTop: 65
@@ -18,7 +17,7 @@ export default StyleSheet.create({
     backgroundColor: '#fff'
   },
   entry: {
-    backgroundColor: '#a67ae2',
+    backgroundColor: '#3b5998',
     flexDirection: 'row',
     justifyContent: 'flex-start',
     margin: 5,
@@ -26,6 +25,7 @@ export default StyleSheet.create({
   },
   entryText: {
     fontSize: 20,
+    color: '#fff',
     paddingLeft: 10,
   }
 })
