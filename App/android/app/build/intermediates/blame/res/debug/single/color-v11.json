@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/krack/android/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/krack/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/krack/android/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/krack/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    }
+]

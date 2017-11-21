@@ -1,0 +1,4 @@
+#Mon Nov 20 18:26:46 EST 2017
+base.0=/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/krack/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/krack/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

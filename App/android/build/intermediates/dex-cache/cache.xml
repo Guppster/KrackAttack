@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/krack/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/krack/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_e948199ce9cdc90420b9301ed0918b054fd29844.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/krack/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.49.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e013739f7ddb6740bf196dc515d8999a6030f9ea">
+        <dex dex="/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/krack/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.49.3_52b2e6a991e3b1de01988e391652379cc13b7bd2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/katherinze/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/krack/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_3d249b4f5832e2494479e4c96a3ba5a912839c9d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/katherinze/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/krack/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_9ebca24e55f568c6c94d2abc82c837b3b4edc467.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/krack/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/krack/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_27fc980dc233f7505338afa32599b5b10f45b46c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/krack/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/krack/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_dfa69a183431854be17fe680c355245462258ebc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/katherinze/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/krack/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_fc268838734a96b07a12af08a73477358816c6bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/krack/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/krack/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_26347e063a29f81f89bea3749c4968465b41a8fd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/krack/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/krack/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_94376d716f7656bbd9379340d4d327dd9e398987.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/katherinze/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/krack/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_b834ed21e93600a0e71514a5fcf0200c03c6d13e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/katherinze/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/krack/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_c5e58f8de44fd8dbfacf2f1598425afe1c058bad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/krack/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/krack/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_cb2b045045f8c96207d67bbb2327138f3528c58e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/katherinze/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/krack/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_590e42645df1d89dc7915e82207c7596e7456ac7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/krack/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/krack/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_660272710711edeb87799b13b9927adbae42e6e9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/katherinze/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/krack/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_04d1361e2a18fe27e0444d12b74f758a06443702.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/krack/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/krack/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_48cc3563cd49265138a1b1ec12fa824e45b03219.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/krack/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.49.3/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/krack/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_91dccd1d9f52f3d225c02a2a1aada3cf570c2f27.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/krack/android/app/build/intermediates/exploded-aar/krack/react-native-vector-icons/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f2cf527de8d0bd35d72088fafea02395ba4a9eec">
+        <dex dex="/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/krack/android/app/build/intermediates/pre-dexed/debug/krack-react-native-vector-icons-unspecified_19d7a6d81ef0fcfcee1dcf9374e5475b2dc7db77.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/krack/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/krack/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_ac9f9f58340a1f797ee23afd923f7f3aa7327f58.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/krack/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/krack/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_804706ec1e2803721bb4a29f023138bd4f59ba17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/krack/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/krack/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_1da5919f5361e54d399eed4c0a485b5ef55f763c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/katherinze/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/krack/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_ec0fdcab0b8b2466726014a0aa163660a2afc606.jar" />
+    </item>
+
+</items>
