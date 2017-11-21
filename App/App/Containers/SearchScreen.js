@@ -35,7 +35,18 @@ class SearchScreen extends Component {
     this.state = {
       items,
       results: [],
-      search: false
+      search: false,
+      isWifiNetworkEnabled: null,
+      ssid: null,
+      pass: null,
+      ssidExist: null,
+      currentSSID: null,
+      currentBSSID: null, 
+      wifiList: null,
+      modalVisible: false,
+      status:null,
+      level: null,
+      ip: null,
     };
     this._handleResults = this._handleResults.bind(this);
     this.refreshWifiResults = this.refreshWifiResults.bind(this);

@@ -6573,8 +6573,8 @@ react-native@0.49.3:
     yargs "^6.4.0"
 
 react-navigation@^1.0.0-beta.7:
-  version "1.0.0-beta.19"
-  resolved "https://registry.yarnpkg.com/react-navigation/-/react-navigation-1.0.0-beta.19.tgz#96e159c4b6760f51fc92d5c1c3690790cff4dbcf"
+  version "1.0.0-beta.20"
+  resolved "https://registry.yarnpkg.com/react-navigation/-/react-navigation-1.0.0-beta.20.tgz#1bd7b74f536a523980f2aa1a0ce77daf5b3d3e9e"
   dependencies:
     babel-plugin-transform-define "^1.3.0"
     clamp "^1.0.1"
@@ -6666,44 +6666,44 @@ react@16.0.0-beta.5:
     object-assign "^4.1.0"
     prop-types "^15.5.6"
 
-reactotron-core-client@^1.12.2:
-  version "1.12.2"
-  resolved "https://registry.yarnpkg.com/reactotron-core-client/-/reactotron-core-client-1.12.2.tgz#fbd20b7f18f4b4bca2458316f3b0a2f20bb68244"
+reactotron-core-client@^1.13.0:
+  version "1.13.0"
+  resolved "https://registry.yarnpkg.com/reactotron-core-client/-/reactotron-core-client-1.13.0.tgz#7f82f6c902756c326b9c8a0baf5085d2a0b0f445"
   dependencies:
     json-stringify-safe "^5.0.1"
     ramda "^0.24.1"
     ramdasauce "^2.0.0"
 
 reactotron-react-native@^1.12.0:
-  version "1.12.3"
-  resolved "https://registry.yarnpkg.com/reactotron-react-native/-/reactotron-react-native-1.12.3.tgz#5e66c7a12b84e23ad4f236441085da283589e1a2"
+  version "1.13.0"
+  resolved "https://registry.yarnpkg.com/reactotron-react-native/-/reactotron-react-native-1.13.0.tgz#be70ca65c43b2e76c3e91e5fda31afdfb50a72c4"
   dependencies:
     json-stringify-safe "^5.0.1"
     mitt "^1.1.2"
     prop-types "^15.5.10"
     ramda "^0.24.1"
     ramdasauce "^2.0.0"
-    reactotron-core-client "^1.12.2"
+    reactotron-core-client "^1.13.0"
     rn-host-detect "^1.1.3"
     socket.io-client "~1.7.3"
 
 reactotron-redux-saga@^1.11.1:
-  version "1.12.2"
-  resolved "https://registry.yarnpkg.com/reactotron-redux-saga/-/reactotron-redux-saga-1.12.2.tgz#12a3969e9928d83b861b15246d8ccc75e79b2cc8"
+  version "1.13.0"
+  resolved "https://registry.yarnpkg.com/reactotron-redux-saga/-/reactotron-redux-saga-1.13.0.tgz#f6bb75c16806f2cc09be97e4973743f41a157a18"
   dependencies:
     ramda "^0.24.1"
     ramdasauce "^2.0.0"
-    reactotron-core-client "^1.12.2"
+    reactotron-core-client "^1.13.0"
     redux "^3.7.1"
     redux-saga "^0.15.3"
 
 reactotron-redux@^1.11.1:
-  version "1.12.2"
-  resolved "https://registry.yarnpkg.com/reactotron-redux/-/reactotron-redux-1.12.2.tgz#8a10f3804dce1940d4bb8b8cfc551a0d7af85164"
+  version "1.13.0"
+  resolved "https://registry.yarnpkg.com/reactotron-redux/-/reactotron-redux-1.13.0.tgz#20f8ce98cbb5e310e041dc85fc4dc4f904aa5dcc"
   dependencies:
     ramda "^0.24.1"
     ramdasauce "^2.0.0"
-    reactotron-core-client "^1.12.2"
+    reactotron-core-client "^1.13.0"
     redux "^3.7.1"
 
 read-pkg-up@^1.0.1:

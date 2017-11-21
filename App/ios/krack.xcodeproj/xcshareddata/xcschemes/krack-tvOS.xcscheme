@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "krack-tvOS.app"
-               BlueprintName = "krack-tvOS"
-               ReferencedContainer = "container:krack.xcodeproj">
+               BuildableName = "KRACK-tvOS.app"
+               BlueprintName = "KRACK-tvOS"
+               ReferencedContainer = "container:KRACK.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "krack-tvOSTests.xctest"
-               BlueprintName = "krack-tvOSTests"
-               ReferencedContainer = "container:krack.xcodeproj">
+               BuildableName = "KRACK-tvOSTests.xctest"
+               BlueprintName = "KRACK-tvOSTests"
+               ReferencedContainer = "container:KRACK.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -61,9 +61,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "krack-tvOSTests.xctest"
-               BlueprintName = "krack-tvOSTests"
-               ReferencedContainer = "container:krack.xcodeproj">
+               BuildableName = "KRACK-tvOSTests.xctest"
+               BlueprintName = "KRACK-tvOSTests"
+               ReferencedContainer = "container:KRACK.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -71,9 +71,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "krack-tvOS.app"
-            BlueprintName = "krack-tvOS"
-            ReferencedContainer = "container:krack.xcodeproj">
+            BuildableName = "KRACK-tvOS.app"
+            BlueprintName = "KRACK-tvOS"
+            ReferencedContainer = "container:KRACK.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "krack-tvOS.app"
-            BlueprintName = "krack-tvOS"
-            ReferencedContainer = "container:krack.xcodeproj">
+            BuildableName = "KRACK-tvOS.app"
+            BlueprintName = "KRACK-tvOS"
+            ReferencedContainer = "container:KRACK.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -113,9 +113,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "krack-tvOS.app"
-            BlueprintName = "krack-tvOS"
-            ReferencedContainer = "container:krack.xcodeproj">
+            BuildableName = "KRACK-tvOS.app"
+            BlueprintName = "KRACK-tvOS"
+            ReferencedContainer = "container:KRACK.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -1,24 +1,4 @@
 {
-  "expo": {
-    "name": "krack-it",
-    "description": "An application that exposes and aims to raise awareness about Wi-Fi key reinstallation attacks",
-    "slug": "krack-it",
-    "privacy": "public",
-    "sdkVersion": "22.0.0",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "primaryColor": "#cccccc",
-    "icon": "./assets/images/bunny.jpg",
-    "splash": {
-      "image": "./assets/images/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "packagerOpts": {
-      "assetExts": ["ttf"]
-    },
-    "ios": {
-      "supportsTablet": true
-    }
-  }
+  "name": "KRACK",
+  "displayName": "KRACK"
 }

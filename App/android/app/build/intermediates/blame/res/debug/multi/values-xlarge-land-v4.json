@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/krack/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-land-v4/values-xlarge-land-v4.xml",
+        "outputFile": "/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/KRACK/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-land-v4/values-xlarge-land-v4.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,55 @@
                     "endOffset": 114
                 },
                 "from": {
-                    "file": "/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/krack/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-xlarge-land/values-xlarge-land.xml",
+                    "file": "/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/KRACK/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-xlarge-land/values-xlarge-land.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 288,
+                        "endColumn": 63,
+                        "endOffset": 347
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/appt/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-land-v4/values-xlarge-land-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 63,
+                    "endOffset": 114
+                },
+                "from": {
+                    "file": "/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/appt/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-xlarge-land/values-xlarge-land.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 288,
+                        "endColumn": 63,
+                        "endOffset": 347
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-land-v4/values-xlarge-land-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 63,
+                    "endOffset": 114
+                },
+                "from": {
+                    "file": "/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values-xlarge-land/values-xlarge-land.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

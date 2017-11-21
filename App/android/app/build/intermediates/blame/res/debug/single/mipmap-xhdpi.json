@@ -1,6 +1,14 @@
 [
     {
-        "merged": "/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/krack/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
-        "source": "/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/krack/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/KRACK/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
+        "source": "/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/KRACK/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/appt/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
+        "source": "/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/appt/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
+        "source": "/Users/katherinze/Documents/Fernando/CS4457/expos-react/KrackAttack/App/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     }
 ]
