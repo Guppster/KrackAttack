@@ -8,22 +8,6 @@ import styles from './Styles/SearchScreenStyle'
 
 const wifi = require('react-native-android-wifi')
 
-const items = [
-  'Loading',
-  'Loading',
-  'Loading',
-  'Loading',
-  'Loading',
-  'Loading',
-  'Loading',
-  'Loading',
-  'Loading',
-  'Loading',
-  'Loading',
-  'Loading',
-  'Loading'
-]
-
 class SearchScreen extends Component {
   static navigationOptions = {
     header: null
@@ -32,20 +16,8 @@ class SearchScreen extends Component {
   constructor (props) {
     super(props)
     this.state = {
-      items,
       results: [],
-      search: false,
-      isWifiNetworkEnabled: null,
-      ssid: null,
-      pass: null,
-      ssidExist: null,
-      currentSSID: null,
-      currentBSSID: null,
-      wifiList: null,
-      modalVisible: false,
-      status: null,
-      level: null,
-      ip: null
+      search: false
     }
     this._handleResults = this._handleResults.bind(this)
     this.refreshWifiResults = this.refreshWifiResults.bind(this)
@@ -77,7 +49,7 @@ class SearchScreen extends Component {
               <TouchableOpacity
                 key={i}
                 style={styles.entry}
-                onPress={() => navigate('Exploit', { ssid: result })}
+                onPress={() => navigate('Exploit', { network: result })}
               >
                 <Text style={styles.entryText}>{result.SSID}</Text>
               </TouchableOpacity>
@@ -91,7 +63,7 @@ class SearchScreen extends Component {
 
         <SearchBar
           ref={ref => (this.searchBar = ref)}
-          data={items}
+          data={this.state.results}
           handleResults={this._handleResults}
           showOnLoad
           hideBack
