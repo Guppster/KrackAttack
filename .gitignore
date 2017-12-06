@@ -1,4 +1,6 @@
-App/node_modules/**/*
-App/.expo/**/*
-App/.vscode/*
-App/.idea/
+krack/node_modules/**/*
+krack/.expo/**/*
+krack/.vscode/*
+krack/.idea/
+api/.idea/
+
