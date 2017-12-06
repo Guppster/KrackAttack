@@ -33,4 +33,13 @@ export default StyleSheet.create({
   button: {
     margin: 2
   },
+  dangerText: {
+    color: 'red', 
+    fontSize: 15,
+    fontWeight: 'bold'
+  },
+  warning: {
+    alignItems: 'center',
+    marginTop: 20
+  }
 })
