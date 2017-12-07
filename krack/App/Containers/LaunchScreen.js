@@ -5,6 +5,7 @@ import {
   Text,
   View,
   Alert,
+  Linking,
   Button
 } from 'react-native'
 import { connect } from 'react-redux'
@@ -31,6 +32,9 @@ class LaunchScreen extends Component {
             <Text style={styles.title}>/krack-it</Text>
           </View>
 
+          <View style={styles.warning}>
+            <Text style={styles.dangerText}> USE ON YOUR OWN NETWORK AT YOUR OWN RISK! </Text>
+          </View>
         </ScrollView>
 
         <View style={styles.button}>
@@ -56,7 +60,7 @@ class LaunchScreen extends Component {
 
   // Change this to a modal maybe?
   onPressAbout () {
-    Alert.alert('About', 'This is a pretty cool app fam. wat dat wifi do')
+    Alert.alert('About', 'Krack App lets you search for your network and verify if it is susceptible to a KrackAttack by attempting an attack.', [{text: 'To learn more about Krack, visit: www.krackattacks.com/', onPress: ()=>{ Linking.openURL('https://www.krackattacks.com')}}])
   }
 
   // Change this to a modal maybe?

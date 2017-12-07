@@ -1,7 +1,7 @@
 import { TabNavigator, TabBarBottom, StackNavigator } from 'react-navigation'
 import React from 'react';
 import { Platform } from 'react-native';
-import { Ionicons } from 'react-native-vector-icons';
+import Icon from 'react-native-vector-icons/Ionicons';
 
 import Colors from '../Themes/Colors';
 
@@ -24,9 +24,27 @@ const PrimaryNav =  TabNavigator(
   {
     Home: {
       screen: LaunchScreen,
+      navigationOptions: {
+        tabBarIcon: ({ tintColor, focused }) => (
+          <Icon
+            name={focused ? 'ios-home' : 'ios-home-outline'}
+            size={26}
+            style={{ color: tintColor }}
+          />
+        ),
+      },
     },
     Search: {
       screen: SearchExploitNavigation,
+      navigationOptions: {
+        tabBarIcon: ({ tintColor, focused }) => (
+          <Icon
+            name={focused ? 'ios-search' : 'ios-search-outline'}
+            size={26}
+            style={{ color: tintColor }}
+          />
+        ),
+      },
     },
   },
   {
