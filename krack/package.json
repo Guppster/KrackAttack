@@ -38,7 +38,7 @@
     "react-native-drawer": "^2.3.0",
     "react-native-i18n": "1.0.0",
     "react-native-searchbar": "^1.13.0",
-    "react-native-vector-icons": "4.3.0",
+    "react-native-vector-icons": "^4.4.2",
     "react-navigation": "^1.0.0-beta.7",
     "react-redux": "^5.0.2",
     "redux": "^3.6.0",
