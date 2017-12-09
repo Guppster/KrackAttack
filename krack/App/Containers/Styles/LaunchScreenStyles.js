@@ -34,12 +34,44 @@ export default StyleSheet.create({
     margin: 2
   },
   dangerText: {
-    color: 'red', 
+    color: 'red',
     fontSize: 15,
     fontWeight: 'bold'
   },
   warning: {
     alignItems: 'center',
     marginTop: 20
-  }
+  },
+  screen: {
+    flex: 1,
+    flexDirection: 'column'
+  },
+  infoContainer: {
+    flex: 3,
+    flexGrow: 2,
+    elevation: 2
+  },
+  entry: {
+    flex: 1,
+    backgroundColor: '#f4f2f4',
+    flexDirection: 'row',
+    margin: 5,
+    paddingVertical: 10
+  },
+  entryLabel: {
+    flex: 1,
+    fontSize: 18,
+    paddingLeft: 10,
+    textAlign: 'left',
+    justifyContent: 'flex-start'
+  },
+  entryValue: {
+    flex: 1,
+    paddingRight: 15,
+    justifyContent: 'flex-end'
+  },
+  entryValueText: {
+    fontSize: 18,
+    textAlign: 'right'
+  },
 })

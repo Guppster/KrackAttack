@@ -10,6 +10,8 @@ import {
 } from 'react-native'
 import { connect } from 'react-redux'
 import { Images } from '../Themes'
+import PopupDialog from 'react-native-popup-dialog'
+import DeviceInfo from 'react-native-device-info'
 
 // Styles
 import styles from './Styles/LaunchScreenStyles'
@@ -19,9 +21,74 @@ class LaunchScreen extends Component {
     header: null
   };
 
+  state = {
+    exploitText: 'PATCHED'
+  }
+
+  _check = () => {
+    if (DeviceInfo.getBrand() === 'samsung') {
+      this.state.exploitText = 'VULNERABLE'
+    }
+  }
+
   render () {
+
+    this._check()
+
     return (
       <View style={styles.container}>
+        <PopupDialog ref={(popupDialog) => { this.popupDialog = popupDialog }}>
+          <View style={styles.screen}>
+            <ScrollView style={styles.infoContainer}>
+
+              <View style={styles.entry}>
+                <Text style={styles.entryLabel}>
+                  Brand
+                </Text>
+                <Text style={[styles.entryValue, styles.entryValueText]}>
+                  {DeviceInfo.getBrand()}
+                </Text>
+              </View>
+
+              <View style={styles.entry}>
+                <Text style={styles.entryLabel}>
+                  Model
+                </Text>
+                <Text style={[styles.entryValue, styles.entryValueText]}>
+                  {DeviceInfo.getModel()}
+                </Text>
+              </View>
+
+              <View style={styles.entry}>
+                <Text style={styles.entryLabel}>
+                  OS
+                </Text>
+                <Text style={[styles.entryValue, styles.entryValueText]}>
+                  {DeviceInfo.getSystemName()}
+                </Text>
+              </View>
+
+              <View style={styles.entry}>
+                <Text style={styles.entryLabel}>
+                  Version
+                </Text>
+                <Text style={[styles.entryValue, styles.entryValueText]}>
+                  {DeviceInfo.getSystemVersion()}
+                </Text>
+              </View>
+
+              <View style={styles.entry}>
+                <Text style={styles.entryLabel}>
+                  Krack Exploit
+                </Text>
+                <Text style={[styles.entryValue, styles.entryValueText]}>
+                  {this.state.exploitText}
+                </Text>
+              </View>
+            </ScrollView>
+          </View>
+        </PopupDialog>
+
         <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>
           <View style={styles.imageContainer}>
             <Image source={Images.krack} style={styles.image}
@@ -37,23 +104,27 @@ class LaunchScreen extends Component {
           </View>
         </ScrollView>
 
-        <View style={styles.button}>
-          <Button
-            onPress={this.onPressAbout}
-            title='About'
-            color='#3b5998'
-            accessibilityLabel='Learn more about the application'
-          />
-        </View>
+        <Button
+          onPress={() => this.popupDialog.show()}
+          title='Check Your Device'
+          color='#3b5998'
+          accessibilityLabel='Check Your Device'
+        />
 
-        <View style={styles.button}>
-          <Button
-            onPress={this.onPressDonate}
-            title='Donate ;)'
-            color={'#8b9dc3'}
-            accessibilityLabel='Help out with the Development of this application'
-          />
-        </View>
+        <Button
+          onPress={this.onPressDonate}
+          title='Donate ;)'
+          color={'#8b9dc3'}
+          accessibilityLabel='Help out with the Development of this application'
+        />
+
+        <Button
+          onPress={this.onPressAbout}
+          title='About'
+          color='#3b5998'
+          accessibilityLabel='Learn more about the application'
+        />
+
       </View>
     )
   }
